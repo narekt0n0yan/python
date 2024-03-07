@@ -2,7 +2,7 @@ from random import randint
 def generate_number():
     randome_Number=randint(0,10)
     return randome_Number
-
+i=1
 def main():
     the_Number=generate_number()
     
@@ -24,5 +24,5 @@ def main():
         elif number < the_Number:
             print('go higher')
         print("========================")
-        
+        i+=1
 main() 
